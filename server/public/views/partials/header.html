@@ -1,5 +1,17 @@
-<div class="instructions">
-    <div class="container">
-        <div class="lead">Gamer's Fellowship</div>
+<div class="instructions" ng-controller="LoginController as lc">
+    <div class="container row">
+        <div class="lead col-md-8">Gamer's Fellowship</div>
+
+        <form class="col-md-4" ng-submit="lc.login()">
+            <div class="form-group">
+              <input type="text" placeholder="Username" class="form-control" ng-model="lc.user.username">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control" ng-model="lc.user.password">
+            </div>
+            <button type="submit" class="btn btn-success" name="submit">Login</button>
+
+          <a href="#register">Register</a>
+          </form>
     </div>
 </div>
