@@ -21,6 +21,9 @@ body, html {
 .lead {
   font-family: fantasy;
   font-size: 60px;
+  background: -webkit-linear-gradient(gold, silver);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .linkRow {
@@ -49,7 +52,6 @@ body, html {
 
 .linksBox {
   border-width: 1px;
-  /* border-left-style: solid; */
   border-right-style: solid;
 }
 
@@ -173,4 +175,15 @@ li a:hover {
   padding: 0%;
   border: 0%;
   margin: 0%;
+}
+
+.homeIntroParagraph {
+  color: white;
+  z-index: 99;
+  position: absolute;
+  margin-left: -300px;
+  font-size: 30px;
+  font-family: fantasy;
+  padding-top: 40px;
+  display: inline-block;
 }
