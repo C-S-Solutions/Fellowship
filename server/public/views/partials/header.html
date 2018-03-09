@@ -1,19 +1,25 @@
 <div class="instructions" ng-controller="LoginController as lc">
-    <div class="container row">
-        <div class="lead col-md-6">Gamer's Fellowship</div>
+  <div class="container row">
+    <div class="lead col-md-6">Gamer's Fellowship</div>
+    <form ng-submit="lc.login()">
+      <div class="form-group col-md-2">
+        <input type="text" placeholder="Username" class="form-control" ng-model="lc.user.username">
+      </div>
+      <div class="form-group col-md-2">
+        <input type="password" placeholder="Password" class="form-control" ng-model="lc.user.password">
+      </div>
+      <div class="col-md-2">
+        <button type="submit" class="btn btn-success" name="submit">Login</button>
 
-        <form ng-submit="lc.login()">
-            <div class="form-group col-md-2">
-              <input type="text" placeholder="Username" class="form-control" ng-model="lc.user.username">
-            </div>
-            <div class="form-group col-md-2">
-              <input type="password" placeholder="Password" class="form-control" ng-model="lc.user.password">
-            </div>
-            <div class="col-md-2">
-            <button type="submit" class="btn btn-success" name="submit">Login</button>
-
-          <a href="#register">Register</a>
-          </div>          
-          </form>
-    </div>
+        <a href="#register">Register</a>
+      </div>
+    </form>
+  </div>
+  <div class="linkRow">
+    <div class="eventBox col-sm-2">Events near me</div>
+    <div class="fellowshipBox col-sm-2">Fellowships</div>
+    <div class="box3 col-sm-2">Box 3</div>
+    <div class="linksBox col-sm-2">Links</div>
+    <br>
+  </div>
 </div>
