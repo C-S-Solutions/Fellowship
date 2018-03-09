@@ -5,6 +5,8 @@ body, html {
   font-size: 14px;
 }
 
+/* Header stying */
+
 .instructions .container h1 {
   font-size: 32px;
   font-weight: 600;
@@ -19,7 +21,41 @@ body, html {
 .lead {
   font-family: fantasy;
   font-size: 60px;
+  background: -webkit-linear-gradient(gold, silver);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+.linkRow {
+  margin-left: 400px;
+}
+
+.eventBox {
+  border-width: 1px;
+  border-left-style: solid;
+  border-right-style: solid;
+  font-size: 16px;
+  font-family: fantasy;
+}
+
+.fellowshipBox {
+  border-width: 1px;
+  /* border-left-style: solid; */
+  border-right-style: solid;
+}
+
+.box3 {
+  border-width: 1px;
+  /* border-left-style: solid; */
+  border-right-style: solid;
+}
+
+.linksBox {
+  border-width: 1px;
+  border-right-style: solid;
+}
+
+/* End Header styling */
 
 #entryForm {
   margin-top: 14px;
@@ -139,4 +175,15 @@ li a:hover {
   padding: 0%;
   border: 0%;
   margin: 0%;
+}
+
+.homeIntroParagraph {
+  color: white;
+  z-index: 99;
+  position: absolute;
+  margin-left: -300px;
+  font-size: 30px;
+  font-family: fantasy;
+  padding-top: 40px;
+  display: inline-block;
 }
