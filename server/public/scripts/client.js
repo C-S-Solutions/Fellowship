@@ -1,12 +1,10 @@
 var myApp = angular.module('myApp', ['ngRoute']);
 
 /// Routes ///
-myApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+myApp.config(function($routeProvider, $locationProvider) {
+  $locationProvider.hashPrefix('');
   console.log('myApp -- config')
   $routeProvider
-    .when('/', {
-      redirectTo: 'home'
-    })
     .when('/home', {
       templateUrl: '/views/templates/home.html',
       controller: 'HomeController as vm',
@@ -34,6 +32,6 @@ myApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $l
       }
     })
     .otherwise({
-      template: '<h1>404</h1>'
+      redirectTo: 'home'
     });
-}]);
+});
