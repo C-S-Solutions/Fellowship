@@ -40,13 +40,11 @@ body, html {
 
 .fellowshipBox {
   border-width: 1px;
-  /* border-left-style: solid; */
   border-right-style: solid;
 }
 
 .box3 {
   border-width: 1px;
-  /* border-left-style: solid; */
   border-right-style: solid;
 }
 
@@ -178,10 +176,10 @@ li a:hover {
 }
 
 .homeIntroParagraph {
-  color: white;
+  color: rgb(35, 56, 241);
   z-index: 99;
   position: absolute;
-  margin-left: -300px;
+  margin-left: -500px;
   font-size: 30px;
   font-family: fantasy;
   padding-top: 40px;
