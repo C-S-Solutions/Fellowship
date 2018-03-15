@@ -175,13 +175,62 @@ li a:hover {
   margin: 0%;
 }
 
+.introLabel {
+  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 2px black;
+  z-index: 999;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -600px;
+  font-size: 40px;
+  font-family: fantasy;
+  border-style: none;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
 .homeIntroParagraph {
-  color: rgb(35, 56, 241);
+  color: white;
+  text-shadow: 2px 2px black;
   z-index: 99;
   position: absolute;
-  margin-left: -500px;
-  font-size: 30px;
+  margin-left: -600px;
+  margin-top: 20px;
+  font-size: 25px;
   font-family: fantasy;
-  padding-top: 40px;
+  padding-top: 80px;
   display: inline-block;
+  padding-right: 550px;
+}
+
+.weeklyBanner {
+  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 2px black;
+  z-index: 999;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -600px;
+  font-size: 40px;
+  font-family: fantasy;
+  border-style: none;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.homeBannerParagraph {
+  color: white;
+  text-shadow: 2px 2px black;
+  z-index: 99;
+  position: absolute;
+  margin-left: -600px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: fantasy;
+  padding-top: 80px;
+  display: inline-block;
+  padding-right: 550px;
 }
