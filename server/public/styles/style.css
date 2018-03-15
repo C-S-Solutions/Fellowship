@@ -40,17 +40,26 @@ body, html {
 
 .fellowshipBox {
   border-width: 1px;
+  border-left-style: solid;
   border-right-style: solid;
+  font-size: 16px;
+  font-family: fantasy;
 }
 
 .box3 {
   border-width: 1px;
+  border-left-style: solid;
   border-right-style: solid;
+  font-size: 16px;
+  font-family: fantasy;
 }
 
 .linksBox {
   border-width: 1px;
+  border-left-style: solid;
   border-right-style: solid;
+  font-size: 16px;
+  font-family: fantasy;
 }
 
 /* End Header styling */
