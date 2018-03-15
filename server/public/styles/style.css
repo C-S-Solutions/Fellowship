@@ -22,8 +22,8 @@ body, html {
   font-family: fantasy;
   font-size: 60px;
   background: -webkit-linear-gradient(gold, silver);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .linkRow {
@@ -36,6 +36,7 @@ body, html {
   border-right-style: solid;
   font-size: 16px;
   font-family: fantasy;
+  text-decoration: underline;
 }
 
 .fellowshipBox {
@@ -44,6 +45,7 @@ body, html {
   border-right-style: solid;
   font-size: 16px;
   font-family: fantasy;
+  text-decoration: underline;
 }
 
 .box3 {
@@ -52,6 +54,7 @@ body, html {
   border-right-style: solid;
   font-size: 16px;
   font-family: fantasy;
+  text-decoration: underline;
 }
 
 .linksBox {
@@ -60,6 +63,7 @@ body, html {
   border-right-style: solid;
   font-size: 16px;
   font-family: fantasy;
+  text-decoration: underline;
 }
 
 /* End Header styling */

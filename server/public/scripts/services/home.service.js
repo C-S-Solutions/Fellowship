@@ -7,8 +7,8 @@ myApp.service('HomeService', ['$http', '$location', function($http, $location){
     Fellowships are local groups of gamers you can connect with through this site and organize customized games and times.
     `;
 
-    self.weeklyBanner = `The Tau codex drops, time for a fish fry!
-    Click on Opinions to:
+    self.weeklyBannerHeadline = `The Tau codex drops, time for a fish fry!`
+    self.weekelyBannerBody = `Click on Opinions to:
     Hear why yours truly hates the armored fishmen and why Tyler loves him some space communist.
     Submit pics of your Tau army (or your other faction slaughtering Tau) in the Gallery section.`;
 }]);
