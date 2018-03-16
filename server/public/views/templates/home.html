@@ -1,22 +1,25 @@
 <div class="container-fluid homeBackground">
     <div class="row no-gutters">
         <div class="col-md-6 firstDiv">
-            <img class="firstImage" src="./images/necron-reuse.jpg">
+            <img class="firstImage" src="./images/tau-battlesuits.jpg">
         </div>
-        <p class="homeIntroParagraph">
-                {{vm.siteIntro}}
-            </p>
+        <button ng-click="siteIntro = !siteIntro" class="introLabel">What we do</button>
+        <p class="homeIntroParagraph" ng-if="siteIntro">{{vm.siteIntro}}</p>
         <div class="col-md-6 secondDiv">
             <img class="secondImage" src="./images/D&D.jpeg">
         </div>
-    </div>        
+    </div>
     <div class="row no-gutters">
         <div class="col-md-6 thirdDiv">
-            <img class="thirdImage" src="./images/orks-AoS.jpg">
+            <img class="thirdImage" src="./images/b-wing.jpg">
         </div>
-        <div class="col-md-6 fourthDiv">
-            <img class="fourthImage" src="./images/x-wing-played.jpg">
-        </div>
+        <button ng-click="showBanner = !showBanner" class="weeklyBanner">Weekly Banner</button>
+        <p class="homeBannerParagraph" ng-if="showBanner">
+            {{vm.weeklyBannerHeadline}}
+            <br>
+            <br> {{vm.weekelyBannerBody}}
+            <div class="col-md-6 fourthDiv">
+                <img class="fourthImage" src="./images/ork-monster-aos.jpg">
+            </div>
     </div>
 </div>
-

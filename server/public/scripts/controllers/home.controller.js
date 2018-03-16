@@ -5,5 +5,7 @@ myApp.controller('HomeController', ['UserService', 'HomeService', function(UserS
   self.homeService = HomeService;
 
   self.siteIntro = HomeService.siteIntro;
+  self.weeklyBannerHeadline = HomeService.weeklyBannerHeadline;
+  self.weekelyBannerBody = HomeService.weekelyBannerBody;
 
 }]);

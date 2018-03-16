@@ -22,8 +22,8 @@ body, html {
   font-family: fantasy;
   font-size: 60px;
   background: -webkit-linear-gradient(gold, silver);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .linkRow {
@@ -36,23 +36,34 @@ body, html {
   border-right-style: solid;
   font-size: 16px;
   font-family: fantasy;
+  text-decoration: underline;
 }
 
 .fellowshipBox {
   border-width: 1px;
-  /* border-left-style: solid; */
+  border-left-style: solid;
   border-right-style: solid;
+  font-size: 16px;
+  font-family: fantasy;
+  text-decoration: underline;
 }
 
 .box3 {
   border-width: 1px;
-  /* border-left-style: solid; */
+  border-left-style: solid;
   border-right-style: solid;
+  font-size: 16px;
+  font-family: fantasy;
+  text-decoration: underline;
 }
 
 .linksBox {
   border-width: 1px;
+  border-left-style: solid;
   border-right-style: solid;
+  font-size: 16px;
+  font-family: fantasy;
+  text-decoration: underline;
 }
 
 /* End Header styling */
@@ -177,13 +188,62 @@ li a:hover {
   margin: 0%;
 }
 
+.introLabel {
+  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 2px black;
+  z-index: 999;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -600px;
+  font-size: 40px;
+  font-family: fantasy;
+  border-style: none;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
 .homeIntroParagraph {
   color: white;
+  text-shadow: 2px 2px black;
   z-index: 99;
   position: absolute;
-  margin-left: -300px;
-  font-size: 30px;
+  margin-left: -600px;
+  margin-top: 20px;
+  font-size: 25px;
   font-family: fantasy;
-  padding-top: 40px;
+  padding-top: 80px;
   display: inline-block;
+  padding-right: 550px;
+}
+
+.weeklyBanner {
+  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 2px black;
+  z-index: 999;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -600px;
+  font-size: 40px;
+  font-family: fantasy;
+  border-style: none;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.homeBannerParagraph {
+  color: white;
+  text-shadow: 2px 2px black;
+  z-index: 99;
+  position: absolute;
+  margin-left: -600px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: fantasy;
+  padding-top: 80px;
+  display: inline-block;
+  padding-right: 550px;
 }
