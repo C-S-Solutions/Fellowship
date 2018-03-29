@@ -5,9 +5,11 @@ myApp.controller('MapController', function(MapService) {
     // self.homeService = HomeService;
     self.mapService = MapService;
 
+    //need to sanitize newZip
     self.newZip = '';
 
-    self.mapZoom = "https://maps.googleapis.com/maps/api/staticmap?center=" + self.newZip + "&zoom=15&size=800x400&scale=1&maptype=roadmap&key=AIzaSyBXCCVmaJXKRVD4t_t3cCr-pDpV1gy16Gs"
+    self.mapZoom = "https://www.google.com/maps/embed/v1/place?key=AIzaSyCwuGjmo4tuxL-k2bG-z5EOyEHzS7nIHaI&q=Space+Needle,Seattle+WA"; 
+    //+ self.newZip;
     
     self.addZip = function (zipCode) {
         console.log(zipCode);

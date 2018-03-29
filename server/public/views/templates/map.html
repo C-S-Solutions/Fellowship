@@ -5,6 +5,12 @@
 <input type="text" ng-model="vm.zipCode" placeholder="zip code">
 <button class="btn btn-default" ng-click="vm.addZip(vm.zipCode)">Submit Zip</button>
 <div id="mapDiv">
-        <img class="mainMap col-lg-9" ng-src="{{vm.mapZoom}}">
+        <!-- <img ng-src="{{vm.mapZoom}}"> -->
+    <iframe
+    width="600"
+    height="450"
+    frameborder="0" style="border:0"
+    ng-src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCwuGjmo4tuxL-k2bG-z5EOyEHzS7nIHaI&q={{vm.newZip}}" allowfullscreen>
+  </iframe>
 </div>
 </div>
