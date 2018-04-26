@@ -30,7 +30,7 @@ body, html {
   margin-left: 400px;
 }
 
-.eventBox {
+.galleryBox {
   border-width: 1px;
   border-left-style: solid;
   border-right-style: solid;
@@ -39,7 +39,7 @@ body, html {
   text-decoration: underline;
 }
 
-.fellowshipBox {
+.batRepBox {
   border-width: 1px;
   border-left-style: solid;
   border-right-style: solid;
@@ -48,7 +48,7 @@ body, html {
   text-decoration: underline;
 }
 
-.box3 {
+.podBox {
   border-width: 1px;
   border-left-style: solid;
   border-right-style: solid;
@@ -57,7 +57,7 @@ body, html {
   text-decoration: underline;
 }
 
-.linksBox {
+.forumBox {
   border-width: 1px;
   border-left-style: solid;
   border-right-style: solid;
@@ -66,6 +66,14 @@ body, html {
   text-decoration: underline;
 }
 
+.fictionBox {
+  border-width: 1px;
+  border-left-style: solid;
+  border-right-style: solid;
+  font-size: 16px;
+  font-family: fantasy;
+  text-decoration: underline;
+}
 /* End Header styling */
 
 #entryForm {
@@ -205,8 +213,8 @@ li a:hover {
 }
 
 .homeIntroParagraph {
-  color: white;
-  text-shadow: 2px 2px black;
+  color: rgb(8, 23, 241);
+  text-shadow: 2px 2px rgb(247, 246, 246);
   z-index: 99;
   position: absolute;
   margin-left: -600px;
