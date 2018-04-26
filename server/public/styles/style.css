@@ -213,8 +213,8 @@ li a:hover {
 }
 
 .homeIntroParagraph {
-  color: white;
-  text-shadow: 2px 2px black;
+  color: rgb(8, 23, 241);
+  text-shadow: 2px 2px rgb(247, 246, 246);
   z-index: 99;
   position: absolute;
   margin-left: -600px;
